@@ -1,6 +1,6 @@
 # What is this?
 
-I love [Cognitect dev-tols](https://www.cognitect.com/dev-tools/), particularly [REBL](https://github.com/cognitect-labs/REBL-distro).
+I love [Cognitect dev-tools](https://www.cognitect.com/dev-tools/), particularly [REBL](https://github.com/cognitect-labs/REBL-distro).
 
 I use [CIDER](https://github.com/clojure-emacs/cider) in [Emacs](https://www.gnu.org/software/emacs/), but [nREPL](https://nrepl.org/nrepl/0.8/index.html) does not current play well with REBL. There are [other solutions](#other-things), but they don't work how I want them to.
 
