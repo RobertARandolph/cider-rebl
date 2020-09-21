@@ -1,0 +1,15 @@
+;; Add to your existing deps.edn
+
+{:aliases
+ :rebl ;; for JDK 11+
+ {:extra-deps {com.cognitect/rebl          {:mvn/version "0.9.241"} ;; Adjust for your REBL version
+               org.openjfx/javafx-fxml     {:mvn/version "15-ea+6"}
+               org.openjfx/javafx-controls {:mvn/version "15-ea+6"}
+               org.openjfx/javafx-swing    {:mvn/version "15-ea+6"}
+               org.openjfx/javafx-base     {:mvn/version "15-ea+6"}
+               org.openjfx/javafx-web      {:mvn/version "15-ea+6"}}
+  :main-opts  ["-e" "((requiring-resolve,'cognitect.rebl/ui))" "-m" "nrepl.cmdline"]}
+
+ :rebl-jdk8 ;; for JDK 8
+ {:extra-deps {com.cognitect/rebl {:mvn/version "0.9.241"}} ;; Adjust for your REBL version
+  :main-opts  ["-e" "((requiring-resolve,'cognitect.rebl/ui))" "-m" "nrepl.cmdline"]}}
