@@ -12,6 +12,8 @@ The default behaviour for REBL with non-nREPL clients and with ([nREPL middlewar
 
 I prefer to only send specific forms to REBL as I work. This allows me to easily find the dozen or so things that I care about inspecting in a REPL session that might have 100(0)s of evaluations.
 
+This setup allows me (or you) to send specific things (last sexp, current defun/top-level-form) to REBL with a shortcut or two.
+
 # Installation
 
 ## deps.edn
