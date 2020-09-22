@@ -8,6 +8,12 @@ This repo provides the information necessary to use REBL how I use it in CIDER.
 
 # How do I use it?
 
+The default behaviour for REBL with non-nREPL clients and with ([nREPL middleware's](#other-things)) is to send all forms to REBL or use REBL as a REPL.
+
+I prefer to only send specific forms to REBL as I work. This allows me to easily find the dozen or so things that I care about inspecting in a REPL session that might have 100(0)s of evaluations.
+
+# Installation
+
 ## deps.edn
 
 I may add [lein](https://leiningen.org) content in the future, but I don't use Leiningen.
